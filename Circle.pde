@@ -30,6 +30,6 @@ class Circle {
   }
   
   void draw() {
-    ellipse(mCenter.x, mCenter.y, mRadius, mRadius); 
+    ellipse(mCenter.x, mCenter.y, mRadius*2, mRadius*2); 
   }
 }
